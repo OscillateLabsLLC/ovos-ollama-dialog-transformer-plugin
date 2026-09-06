@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "ovos-ollama-dialog-transformer-plugin"
 description = "Dialog transformer for OVOS, designed to return responses from Ollama"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 authors = [
     { name = "Mike Gray/Oscillate Labs", email = "mike@oscillatelabs.net" },
 ]
@@ -23,6 +23,10 @@ Homepage = "https://github.com/OscillateLabsLLC/ovos-ollama-dialog-transformer-p
 
 [project.entry-points."opm.transformer.dialog"]
 ovos-ollama-dialog-transformer-plugin = "ovos_ollama_dialog_transformer_plugin:OllamaDialogTransformer"
+
+[tool.uv]
+# ovos-plugin-manager imports pkg_resources, which setuptools removes in 82.
+constraint-dependencies = ["setuptools<82"]
 
 [tool.setuptools.dynamic]
 version = { attr = "ovos_ollama_dialog_transformer_plugin.version.__version__" }
