@@ -1,0 +1,14 @@
+{
+  "packages": {
+    ".": {
+      "release-type": "python",
+      "package-name": "ovos-ollama-dialog-transformer-plugin",
+      "extra-files": [
+        {
+          "type": "generic",
+          "path": "ovos_ollama_dialog_transformer_plugin/version.py"
+        }
+      ]
+    }
+  }
+}
