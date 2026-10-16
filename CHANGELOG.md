@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.1](https://github.com/OscillateLabsLLC/ovos-ollama-dialog-transformer-plugin/compare/ovos-ollama-dialog-transformer-plugin-v1.1.0...ovos-ollama-dialog-transformer-plugin-v1.1.1) (2026-10-16)
+
+
+### Bug Fixes
+
+* **deps:** bump urllib3 to 2.8.0 ([6196d76](https://github.com/OscillateLabsLLC/ovos-ollama-dialog-transformer-plugin/commit/6196d763f36a5ef7f49964d14ede19ae228a2878))
+* **deps:** bump urllib3 to 2.8.0 ([ebfd0f0](https://github.com/OscillateLabsLLC/ovos-ollama-dialog-transformer-plugin/commit/ebfd0f03631d63e931df83a5c498c3d0b8e48794))
+
 ## [1.1.0](https://github.com/OscillateLabsLLC/ovos-ollama-dialog-transformer-plugin/compare/ovos-ollama-dialog-transformer-plugin-v1.0.0...ovos-ollama-dialog-transformer-plugin-v1.1.0) (2026-09-25)
 
 
