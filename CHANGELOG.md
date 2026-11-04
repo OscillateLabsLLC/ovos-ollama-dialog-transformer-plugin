@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.2](https://github.com/OscillateLabsLLC/ovos-ollama-dialog-transformer-plugin/compare/ovos-ollama-dialog-transformer-plugin-v1.1.1...ovos-ollama-dialog-transformer-plugin-v1.1.2) (2026-11-04)
+
+
+### Bug Fixes
+
+* **deps:** bump certifi to 2026.10.23 ([9eed9b8](https://github.com/OscillateLabsLLC/ovos-ollama-dialog-transformer-plugin/commit/9eed9b88cefb98265d60d3ec88ffb5de1d602281))
+* **deps:** bump certifi to 2026.10.23 ([12dd922](https://github.com/OscillateLabsLLC/ovos-ollama-dialog-transformer-plugin/commit/12dd922f358c47ddef908f0b7c2d3926affe3414))
+
 ## [1.1.1](https://github.com/OscillateLabsLLC/ovos-ollama-dialog-transformer-plugin/compare/ovos-ollama-dialog-transformer-plugin-v1.1.0...ovos-ollama-dialog-transformer-plugin-v1.1.1) (2026-10-16)
 
 
